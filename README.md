@@ -63,7 +63,7 @@
 
 > 🆕 **Bottom-row advances (2026-Q2)** — core advancements for the synthesis half of the loop.
 >
-> **✍️ StandUp** — Insight Dashboard (post-send visibility) · HopenTechBrief (daily tech-curation channel) · Claude session-log federation (auto-join to work_items) · EXAONE 3.5 Korean-first cascade (Stage 3 model decision).
+> **✍️ StandUp** — Insight Dashboard (post-send visibility) · HopenTechBrief (daily tech-curation channel) · Claude session-log federation (auto-join to work_items) · EXAONE 3.5 Korean-first cascade (Stage 3 model decision). Tech-adoption output now lands as auto-drafted **DevPlans** in a downstream platform (HopenVision) that runs its own embedded loop — see *HopenVision Evolution Loop* below.
 >
 > **🧬 AllergyInsight RAG** — Vertical Insight Framework (domain abstraction, ADR-011) · Source Connector Registry (pluggable ingestion) · Strategic Intel v1 (IVD hypothesis engine + statistical validation) · Newsletter section redesign (impact-based ordering).
 >
