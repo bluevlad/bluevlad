@@ -122,6 +122,23 @@
 
 ---
 
+### The HopenVision Evolution Loop — Dual-Channel Tech Adoption
+
+> 🎯 A user-facing platform that **also runs its own closed loop** — fed by two channels: external tech curated by the fleet, and internal corpus turned into AI.
+
+<table align="center">
+<tr><th align="center">⮕ Channel A — External Tech Inflow</th><th align="center">⮕ Channel B — Internal Corpus → AI</th></tr>
+<tr>
+<td align="center">📨 <b>medium-digest-agent</b> (RSS sync)<br/>↓<br/>✍️ <b>HopenTechBrief</b> stack-fitness gate<br/>↓<br/>📝 auto-drafted <b>DevPlans</b></td>
+<td align="center">🗄️ legacy corpus (board UGC + academy)<br/>↓<br/>👁️ <b>Board MVP</b> read-only corpus viewer<br/>↓<br/>🔁 <b>CS-automation closed loop</b> + 🎯 <b>AI pass-prediction</b> Feature Store</td>
+</tr>
+<tr><td colspan="2" align="center">↺ DevPlans + AI models improve the platform → new corpus accrues → feeds Channel B again</td></tr>
+</table>
+
+<sub>CS loop: inquiry auto-classify → routing → answer-effectiveness scoring → FAQ automation (self-reinforcing). Legacy treated as training data, not a 1:1 port (ADR-002).</sub>
+
+---
+
 ### The Five Agents — At a Glance
 
 > 🎯 **What the operator decides** — column 5. Everything else is automatic.
