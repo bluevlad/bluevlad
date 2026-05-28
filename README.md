@@ -79,7 +79,7 @@
 <tr><th colspan="5" align="left">Layer 1 — User-Facing Services</th></tr>
 <tr>
 <td align="center">🥗 <b>AllergyInsight</b><br/><sub>allergy.unmong.com<br/>B2C anonymous portal</sub></td>
-<td align="center">📚 <b>HopenVision</b><br/><sub>study.unmong.com<br/>commerce + LMS + exam</sub></td>
+<td align="center">📚 <b>HopenVision</b><br/><sub>study.unmong.com<br/>commerce + LMS + exam<br/>+ AI pass-prediction · CS-automation loop</sub></td>
 <td align="center">🎓 <b>EduFit</b><br/><sub>edufit.unmong.com<br/>FastAPI + React</sub></td>
 <td align="center">🗺️ <b>ImageInsight</b><br/><sub>imageinsight.unmong.com<br/>EXIF travel guide <i>(private)</i></sub></td>
 <td align="center">🖼️ <b>ImagesToAiPipeLine</b><br/><sub>pipeline.unmong.com<br/>OWL-ViT v2 vision</sub></td>
