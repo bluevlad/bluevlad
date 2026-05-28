@@ -236,7 +236,7 @@ The same RAG pipeline (ingestion → chunking → embedding → vector DB → hy
 |---------|-------|-------------|
 | [Auto-Tobe-Agent](https://github.com/bluevlad/Auto-Tobe-Agent) | TypeScript, Claude Code CLI, Ollama | Dual-engine autonomous agent — monitor, repair, deploy |
 | [medium-digest-agent](https://github.com/bluevlad/medium-digest-agent) | TypeScript, Node.js | Medium RSS content sync agent for HopenVision |
-| [HopenVision](https://github.com/bluevlad/hopenvision) | Spring Boot 3.2, JPA, React 19 + Ant Design, PostgreSQL, Monorepo | Learning Operations Platform — Academy MSA absorbed; commerce/LMS + civil-service exam scoring unified |
+| [HopenVision](https://github.com/bluevlad/hopenvision) | Spring Boot 3.2, JPA, React 19 + Ant Design, PostgreSQL, Monorepo | Learning Operations Platform — Academy MSA absorbed; commerce/LMS + civil-service exam scoring unified · AI-first (legacy-as-corpus pass-prediction + CS-automation closed loop, ADR-002) |
 | [StandUp](https://github.com/bluevlad/StandUp) | FastAPI, PostgreSQL + pgvector, Ollama (llama3.2 / qwen2.5-coder / EXAONE 3.5) | Operations insight newsletter — 3-source ingestion + 3-stage local LLM cascade + self-referencing RAG · STANDUP_MODE cutover |
 | [AllergyInsight](https://github.com/bluevlad/AllergyInsight) | FastAPI, React, ChromaDB | B2C anonymous information portal — MAST / symptoms / chatbot / drugs / clinical-images · safety gate + drug-law avoidance |
 | [InfraWatcher](https://github.com/bluevlad/InfraWatcher) | FastAPI, React, WebSocket | Real-time Docker container observability + control |
