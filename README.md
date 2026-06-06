@@ -129,7 +129,7 @@
 <table align="center">
 <tr><th align="center">⮕ Channel A — External Tech Inflow</th><th align="center">⮕ Channel B — Internal Corpus → AI</th></tr>
 <tr>
-<td align="center">📨 <b>medium-digest-agent</b> (RSS sync)<br/>↓<br/>✍️ <b>HopenTechBrief</b> stack-fitness gate<br/>↓<br/>📝 auto-drafted <b>DevPlans</b></td>
+<td align="center"><s>📨 <b>medium-digest-agent</b> (digest sync)</s> <i>archived 2026-06</i><br/>↓<br/>✍️ <b>HopenTechBrief</b> stack-fitness gate<br/>↓<br/>📝 auto-drafted <b>DevPlans</b><br/><sub>(Channel A inflow dormant — feeder retired; gate reusable for other sources)</sub></td>
 <td align="center">🗄️ legacy corpus (board UGC + academy)<br/>↓<br/>👁️ <b>Board MVP</b> read-only corpus viewer<br/>↓<br/>🔁 <b>CS-automation closed loop</b> + 🎯 <b>AI pass-prediction</b> Feature Store</td>
 </tr>
 <tr><td colspan="2" align="center">↺ DevPlans + AI models improve the platform → new corpus accrues → feeds Channel B again</td></tr>
