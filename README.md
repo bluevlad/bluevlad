@@ -104,8 +104,7 @@
 <tr><th colspan="5" align="left">Layer 4 — Autonomous Agents</th></tr>
 <tr>
 <td align="center" colspan="2">🔍 <b>QA-Agent</b> <i>(Inspector)</i><br/><sub>Playwright E2E/API · multi-stage nightly<br/>origin-tagged · Git-verified Issues</sub></td>
-<td align="center">🤖 <b>Auto-Tobe-Agent</b> <i>(Builder)</i><br/><sub>dual-engine fix + to-be<br/>auto-PR + rolling deploy</sub></td>
-<td align="center" colspan="2">📨 <b>medium-digest-agent</b> <i>(Curator · archived 2026-06)</i><br/><sub>Medium Digest → local-LLM tech analysis → Markdown reports<br/><i>code public · realtime daemon + Issue-publish retired</i></sub></td>
+<td align="center" colspan="3">🤖 <b>Auto-Tobe-Agent</b> <i>(Builder)</i><br/><sub>dual-engine fix + to-be<br/>auto-PR + rolling deploy</sub></td>
 </tr>
 
 <tr><th colspan="5" align="left">Layer 5 — AI Foundation</th></tr>
