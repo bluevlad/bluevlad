@@ -109,6 +109,12 @@ Aggregates fix results from **two sources into one schema**: the QA/Auto-Tobe ag
 
 > 🎯 **Operator sees** → recurrence patterns and root-cause distribution. **Decides** → which prevention rule to promote into standards.
 
+#### 📝 Self-Documenting Operations — *the fleet writes its own history*
+
+AllergyInsight's ingestion and RAG state is snapshotted automatically on a two-track schedule: a detailed daily status report (read-only container exec → private repo commit) and a whitelist-filtered weekly academic summary published to the public service wiki. Numbers come from the same helpers the dashboard uses — the report and the UI can never disagree.
+
+> 🎯 **Operator sees** → drift and anomalies in collection/RAG health, without asking. **Decides** → nothing, unless the trendline demands it.
+
 #### 📈 LLMOps — *Metering the AI itself*
 
 Every local-LLM consumer in the fleet emits a per-run report through a fire-and-forget SDK (Python + TypeScript, stdlib-only, short timeout, no retry) into a single PostgreSQL store, plus model-inventory pollers for Ollama and MLX. **Design constraint**: LLMOps downtime never propagates to producers. A sunset clause is baked in — if ROI is insufficient, it folds back into InfraWatcher.
