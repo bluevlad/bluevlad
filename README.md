@@ -141,8 +141,8 @@ Fleet-wide supply-chain posture: weekly Dependabot across pip / npm / docker / a
 
 | | 🧬 **AllergyInsight** — Medical <sub>(Vertical #1)</sub> | 🎯 **SkillRadar** — AI Learning <sub>(Vertical #2)</sub> |
 |---|---|---|
-| **Sources** | PubMed · Semantic Scholar · Europe PMC · openFDA · MFDS · news feeds | K-MOOC · KDT bootcamps · seminars & conferences · AI-policy news |
-| **Knowledge store** | canonical store + per-allergen ChromaDB, three-stage dedup | dedicated pgvector corpus |
+| **Sources** | PubMed · Semantic Scholar · Europe PMC · openFDA · MFDS · community Q&A corpus · news feeds | K-MOOC · KDT bootcamps · seminars & conferences · AI-policy news |
+| **Knowledge store** | canonical store + per-allergen ChromaDB, three-stage dedup | pgvector corpus on the shared ingestion framework — natural-key corrective upsert (app + DB constraint), watermark-based incremental collection, weekly retention |
 | **Surfaces** | anonymous public portal (MAST · symptoms · RAG chatbot · drug groups · clinical images) + daily clinical briefing | personalized daily digest (web + email) for job seekers and senior professionals reskilling into AI |
 | **LLM strategy** | Gemini 2.5 Flash primary · local Gemma 4 12B fallback | local-first summarize / classify digest cascade |
 | **Guardrails** | diagnosis-disallowed phrasing · citation + license on every response · emergency-keyword bypass | source-weighted relevance scoring before any LLM call |
