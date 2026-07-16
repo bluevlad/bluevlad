@@ -145,7 +145,7 @@ Fleet-wide supply-chain posture: weekly Dependabot across pip / npm / docker / a
 | **Knowledge store** | canonical store + per-allergen ChromaDB, three-stage dedup | pgvector corpus on the shared ingestion framework — natural-key corrective upsert (app + DB constraint), watermark-based incremental collection, weekly retention |
 | **Surfaces** | anonymous public portal (MAST · symptoms · RAG chatbot · drug groups · clinical images) + daily clinical briefing | personalized daily digest (web + email) for job seekers and senior professionals reskilling into AI |
 | **LLM strategy** | Gemini 2.5 Flash primary · local Gemma 4 12B fallback | local-first summarize / classify digest cascade |
-| **Guardrails** | diagnosis-disallowed phrasing · citation + license on every response · emergency-keyword bypass | source-weighted relevance scoring before any LLM call |
+| **Guardrails** | diagnosis-disallowed phrasing · citation + license on every response · emergency-keyword bypass | SSRF-guarded fetchers (internal-network / metadata / loopback egress blocked) · fail-fast production secrets · source-weighted relevance scoring before any LLM call |
 
 > **Engine lineage** — SkillRadar was built by **recombining proven parts of the fleet**: StandUp's ingestion + local-LLM digest cascade and HopenVision's full-stack web/auth architecture. Both parent services are on hold as products; their engines live on. Services may pause — capabilities compound.
 
