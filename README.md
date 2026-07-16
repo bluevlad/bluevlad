@@ -121,6 +121,18 @@ Every local-LLM consumer in the fleet emits a per-run report through a fire-and-
 
 > 🎯 **Operator sees** → service ↔ model usage matrix. **Decides** → which model serves which workload.
 
+#### 🧱 Shared Capability Libraries — *where compounding becomes code*
+
+Proven patterns are extracted from services into shared libraries, then re-applied fleet-wide:
+
+| Library | Extracted from | Provides |
+|---------|----------------|----------|
+| `shared/ingestion` | AllergyInsight's cursor-delta drug ingest | incremental cursors · exponential backoff · near-dup detection · upsert / retention / run history |
+| `shared/security` | SkillRadar hardening | SSRF defense — public-URL assertion + redirect re-validation guards for requests/httpx |
+| `shared/llm_eval` | vertical digest pipelines | deterministic output checks + injectable LLM-as-judge harness (stdlib-only) |
+
+Fleet-wide supply-chain posture: weekly Dependabot across pip / npm / docker / actions + PyPA `pip-audit` on every service.
+
 ---
 
 ### Pillar ② — Vertical Engine: One Engine, N Domains
