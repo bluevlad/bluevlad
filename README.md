@@ -151,7 +151,7 @@ Fleet-wide supply-chain posture: weekly Dependabot across pip / npm / docker / a
 
 #### 📰 NewsletterPlatform — *Shared delivery, hardened by real incidents*
 
-The delivery layer that productizes vertical outputs into email channels. Multi-tenant on a shared core with a `BaseTenant` abstraction and API-driven collection (no cross-tenant DB access). Hardening came from production incidents, not speculation: stale-cache send guard with an admin-only alert mode, SQL-layer article dedup, multi-slot sends off a single collection cache, and subscription-abuse defenses (Turnstile · rate limits · honeypot · bot-pattern detection).
+The delivery layer that productizes vertical outputs into email channels. Multi-tenant on a shared core with a `BaseTenant` abstraction and API-driven collection (no cross-tenant DB access). Hardening came from production incidents, not speculation: stale-cache send guard with an admin-only alert mode, SQL-layer article dedup, multi-slot sends off a single collection cache, subscription-abuse defenses (Turnstile · rate limits · honeypot · bot-pattern detection), stateless signed admin sessions, rate-limited token endpoints, proxy-aware client-IP resolution, and origin-enforced CSRF on admin writes.
 
 > 🎯 **Operator sees** → stale-cache alerts, per-slot statistics, abuse telemetry. **Decides** → which tenant to onboard next.
 
