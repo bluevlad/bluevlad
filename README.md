@@ -147,7 +147,7 @@ Fleet-wide supply-chain posture: weekly Dependabot across pip / npm / docker / a
 | **LLM strategy** | Gemini 2.5 Flash primary · local Gemma 4 12B fallback | local-first summarize / classify digest cascade |
 | **Guardrails** | diagnosis-disallowed phrasing · citation + license on every response · emergency-keyword bypass | SSRF-guarded fetchers (internal-network / metadata / loopback egress blocked) · fail-fast production secrets · source-weighted relevance scoring before any LLM call |
 
-> **Engine lineage** — SkillRadar was built by **recombining proven parts of the fleet**: StandUp's ingestion + local-LLM digest cascade and HopenVision's full-stack web/auth architecture. Both parent services are on hold as products; their engines live on. Services may pause — capabilities compound.
+> **Engine lineage** — SkillRadar was built by **recombining proven parts of the fleet**: StandUp's ingestion + local-LLM digest cascade and HopenVision's full-stack web/auth architecture. Both parent services are on hold as products; their engines live on. The same thesis was stress-tested in reverse on NewsletterPlatform: the TechBriefing tenant pivoted its entire collection domain (Java/React ecosystem → AI/LLM ecosystem — model repos, research-lab feeds, AI CVE keywords) through **configuration alone, zero core changes**. Services may pause — capabilities compound.
 
 #### 📰 NewsletterPlatform — *Shared delivery, hardened by real incidents*
 
