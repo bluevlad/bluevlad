@@ -241,7 +241,7 @@ The same RAG pipeline (ingestion → chunking → embedding → vector DB → hy
 |---------|-------|-------------|
 | [Auto-Tobe-Agent](https://github.com/bluevlad/Auto-Tobe-Agent) | TypeScript, Claude Code CLI, Ollama | Dual-engine autonomous agent — monitor, repair, deploy |
 | AllergyInsight <sub>*(private)*</sub> | FastAPI, React, ChromaDB, Gemini + Gemma 4 | Medical vertical #1 — anonymous portal · RAG chatbot · daily clinical briefing · DomainPack framework |
-| SkillRadar <sub>*(private)*</sub> | FastAPI, React, PostgreSQL + pgvector | AI-learning vertical #2 — daily curation digest for reskilling, built on inherited fleet engines |
+| SkillRadar <sub>*(private)*</sub> | FastAPI, React, PostgreSQL + pgvector | AI-learning vertical #2 — daily curation digest for reskilling, built on inherited fleet engines · hardened shared-framework ingestion |
 | [InfraWatcher](https://github.com/bluevlad/InfraWatcher) | FastAPI, React, WebSocket | Real-time Docker container observability + control |
 | [QA-Dashboard](https://github.com/bluevlad/QA-Dashboard) | FastAPI, React, PostgreSQL | Fix-result aggregator — agent + developer fixes in one prevention dataset |
 | LLMOps <sub>*(private)*</sub> | FastAPI, React, PostgreSQL, Google OAuth | Local-LLM usage SSoT — fire-and-forget SDK · model-inventory pollers (Ollama + MLX) |
