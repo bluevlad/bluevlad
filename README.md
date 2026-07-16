@@ -200,7 +200,7 @@ The same RAG pipeline (ingestion → chunking → embedding → vector DB → hy
 
 <tr><th colspan="4" align="left">Layer 2 — Shared Platform Services</th></tr>
 <tr>
-<td align="center" colspan="2">📰 <b>NewsletterPlatform</b><br/><sub>newsletter.unmong.com<br/>multi-tenant delivery core<br/>incident-hardened send guards</sub></td>
+<td align="center" colspan="2">📰 <b>NewsletterPlatform</b><br/><sub>newsletter.unmong.com<br/>multi-tenant collection + delivery core<br/>AI/LLM briefing tenant · incident-hardened send guards</sub></td>
 <td align="center" colspan="2">📊 <b>QA Dashboard</b><br/><sub>qaagent.unmong.com<br/>fix-result aggregator<br/>prevention-model dataset</sub></td>
 </tr>
 
