@@ -245,7 +245,7 @@ The same RAG pipeline (ingestion → chunking → embedding → vector DB → hy
 | [InfraWatcher](https://github.com/bluevlad/InfraWatcher) | FastAPI, React, WebSocket | Real-time Docker container observability + control |
 | [QA-Dashboard](https://github.com/bluevlad/QA-Dashboard) | FastAPI, React, PostgreSQL | Fix-result aggregator — agent + developer fixes in one prevention dataset |
 | LLMOps <sub>*(private)*</sub> | FastAPI, React, PostgreSQL, Google OAuth | Local-LLM usage SSoT — fire-and-forget SDK · model-inventory pollers (Ollama + MLX) |
-| [NewsLetterPlatform](https://github.com/bluevlad/NewsLetterPlatform) | Python, multi-tenant core | Shared delivery layer — `BaseTenant` abstraction · incident-hardened send guards |
+| [NewsLetterPlatform](https://github.com/bluevlad/NewsLetterPlatform) | Python, multi-tenant core | Shared delivery layer — `BaseTenant` abstraction · config-only domain pivots · incident-hardened send guards |
 | [LogAnalyzer](https://github.com/bluevlad/LogAnalyzer) | FastAPI, React, PostgreSQL | Docker log analysis — error-pattern source for the ops loop |
 | [StandUp](https://github.com/bluevlad/StandUp) <sub>⏸️</sub> | FastAPI, PostgreSQL + pgvector, Ollama | Ops-insight synthesis — 3-stage local LLM cascade + self-referencing RAG · engine inherited by SkillRadar |
 | [HopenVision](https://github.com/bluevlad/hopenvision) <sub>⏸️</sub> | Spring Boot 3.2, JPA, React 19, PostgreSQL | Learning-operations platform — commerce / LMS / exam scoring · web-auth architecture inherited by SkillRadar |
